@@ -1,0 +1,31 @@
+[ {
+  "name" : "Ibuprofen 400mg",
+  "activeIngredient" : "Ibuprofen",
+  "quantity" : 500,
+  "expiryDate" : [ 2024, 12, 25 ],
+  "batchNumber" : "IBU-2024-001"
+}, {
+  "name" : "Paracetamol 500mg",
+  "activeIngredient" : "Paracetamol",
+  "quantity" : 750,
+  "expiryDate" : [ 2025, 2, 25 ],
+  "batchNumber" : "PAR-2024-002"
+}, {
+  "name" : "Amoxicillin 250mg",
+  "activeIngredient" : "Amoxicillin",
+  "quantity" : 200,
+  "expiryDate" : [ 2024, 10, 25 ],
+  "batchNumber" : "AMX-2024-003"
+}, {
+  "name" : "Aspirin 100mg",
+  "activeIngredient" : "Acetylsalicylic Acid",
+  "quantity" : 1000,
+  "expiryDate" : [ 2025, 8, 25 ],
+  "batchNumber" : "ASP-2024-004"
+}, {
+  "name" : "Omeprazole 20mg",
+  "activeIngredient" : "Omeprazole",
+  "quantity" : 300,
+  "expiryDate" : [ 2025, 6, 25 ],
+  "batchNumber" : "OMP-2024-005"
+} ]
