@@ -98,8 +98,8 @@
         <div>Total Units</div>
     </div>
     <div class="stat-card">
-        <div class="stat-number">3</div>
-        <div>Active Beans</div>
+        <div class="stat-number" th:text="${expiringSoonCount ?: '0'}">0</div>
+        <div>Expiring Soon (90 days)</div>
     </div>
 </div>
 

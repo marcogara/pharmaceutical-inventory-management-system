@@ -29,9 +29,12 @@ public class InventoryController {
             int totalMedications = inventoryManager.getTotalMedications();
             int totalUnits = inventoryManager.getTotalUnits();
 
+            long expiringSoonCount = inventoryManager.getBatchesExpiringSoon(90);
+
             model.addAttribute("medications", medications);
             model.addAttribute("totalMedications", totalMedications);
             model.addAttribute("totalUnits", totalUnits);
+            model.addAttribute("expiringSoonCount", expiringSoonCount);
             model.addAttribute("systemStatus", "Online");
 
             System.out.println("✅ InventoryController: Data prepared for view - " + totalMedications + " medications");

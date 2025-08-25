@@ -172,6 +172,15 @@ public class InventoryManager {
         return initialized;
     }
 
+    public long getBatchesExpiringSoon(int days) {
+        if (inventory == null) return 0;
+        LocalDate now = LocalDate.now();
+        LocalDate expiryLimit = now.plusDays(days);
+        return inventory.stream()
+                .filter(med -> med.getExpiryDate() != null && med.getExpiryDate().isBefore(expiryLimit))
+                .count();
+    }
+
     // New methods for inventory operations
     public void addMedication(Medication medication) {
         if (!initialized) {
