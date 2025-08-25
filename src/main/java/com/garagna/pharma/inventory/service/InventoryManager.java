@@ -128,20 +128,27 @@ public class InventoryManager {
         System.out.println("💾 Inventory saved to: " + inventoryFile.toAbsolutePath());
     }
 
-    private void createSampleInventory() {
-        // Sample pharmaceutical data
-        inventory.add(new Medication("Ibuprofen 400mg", "Ibuprofen", 500,
-                LocalDate.now().plusMonths(6), "IBU-2024-001"));
-        inventory.add(new Medication("Paracetamol 500mg", "Paracetamol", 750,
-                LocalDate.now().plusMonths(8), "PAR-2024-002"));
-        inventory.add(new Medication("Amoxicillin 250mg", "Amoxicillin", 200,
-                LocalDate.now().plusMonths(4), "AMX-2024-003"));
-        inventory.add(new Medication("Aspirin 100mg", "Acetylsalicylic Acid", 1000,
-                LocalDate.now().plusMonths(12), "ASP-2024-004"));
-        inventory.add(new Medication("Omeprazole 20mg", "Omeprazole", 300,
-                LocalDate.now().plusMonths(10), "OMP-2024-005"));
 
-        System.out.println("📋 Sample inventory created: " + inventory.size() + " medications");
+    private void createSampleInventory() {
+        // Realistic Aristo Pharma products based on their actual portfolio
+        inventory.add(new Medication("Alpha Lipon Aristo 600mg Filmtabletten", "Thioctsäure (Alpha-Lipoic Acid)", 300,
+                LocalDate.now().plusMonths(9), "ALA-2024-001"));
+        inventory.add(new Medication("Ibuprofen Aristo 400mg Filmtabletten", "Ibuprofen", 1500,
+                LocalDate.now().plusMonths(3), "IBU-2024-007"));
+        inventory.add(new Medication("Paracetamol Aristo 500mg Tabletten", "Paracetamol", 2000,
+                LocalDate.now().plusMonths(7), "PAR-2024-015"));
+        inventory.add(new Medication("Amoxicillin Aristo 750mg Filmtabletten", "Amoxicillin", 800,
+                LocalDate.now().plusMonths(1), "AMO-2024-023"));
+        inventory.add(new Medication("Omeprazol Aristo 20mg Kapseln", "Omeprazol", 1200,
+                LocalDate.now().plusMonths(11), "OMP-2024-041"));
+        inventory.add(new Medication("Metformin Aristo 850mg Filmtabletten", "Metformin HCl", 950,
+                LocalDate.now().plusMonths(8), "MET-2024-033"));
+        inventory.add(new Medication("Bisoprolol Aristo 5mg Filmtabletten", "Bisoprolol Fumarat", 600,
+                LocalDate.now().plusMonths(4), "BIS-2024-019"));
+        inventory.add(new Medication("Simvastatin Aristo 20mg Filmtabletten", "Simvastatin", 750,
+                LocalDate.now().plusMonths(6), "SIM-2024-027"));
+
+        System.out.println("📋 Sample inventory created with realistic Aristo Pharma products: " + inventory.size() + " medications");
     }
 
     // Existing methods remain the same

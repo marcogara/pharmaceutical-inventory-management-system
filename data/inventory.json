@@ -1,31 +1,49 @@
 [ {
-  "name" : "Ibuprofen 400mg",
-  "activeIngredient" : "Ibuprofen",
-  "quantity" : 500,
-  "expiryDate" : [ 2024, 12, 25 ],
-  "batchNumber" : "IBU-2024-001"
-}, {
-  "name" : "Paracetamol 500mg",
-  "activeIngredient" : "Paracetamol",
-  "quantity" : 750,
-  "expiryDate" : [ 2025, 2, 25 ],
-  "batchNumber" : "PAR-2024-002"
-}, {
-  "name" : "Amoxicillin 250mg",
-  "activeIngredient" : "Amoxicillin",
-  "quantity" : 200,
-  "expiryDate" : [ 2024, 10, 25 ],
-  "batchNumber" : "AMX-2024-003"
-}, {
-  "name" : "Aspirin 100mg",
-  "activeIngredient" : "Acetylsalicylic Acid",
-  "quantity" : 1000,
-  "expiryDate" : [ 2025, 8, 25 ],
-  "batchNumber" : "ASP-2024-004"
-}, {
-  "name" : "Omeprazole 20mg",
-  "activeIngredient" : "Omeprazole",
+  "name" : "Alpha Lipon Aristo 600mg Filmtabletten",
+  "activeIngredient" : "Thioctsäure (Alpha-Lipoic Acid)",
   "quantity" : 300,
-  "expiryDate" : [ 2025, 6, 25 ],
-  "batchNumber" : "OMP-2024-005"
+  "expiryDate" : [ 2025, 9, 15 ],
+  "batchNumber" : "ALA-2024-001"
+}, {
+  "name" : "Ibuprofen Aristo 400mg Filmtabletten",
+  "activeIngredient" : "Ibuprofen",
+  "quantity" : 1500,
+  "expiryDate" : [ 2025, 3, 20 ],
+  "batchNumber" : "IBU-2024-007"
+}, {
+  "name" : "Paracetamol Aristo 500mg Tabletten",
+  "activeIngredient" : "Paracetamol",
+  "quantity" : 2000,
+  "expiryDate" : [ 2025, 7, 12 ],
+  "batchNumber" : "PAR-2024-015"
+}, {
+  "name" : "Amoxicillin Aristo 750mg Filmtabletten",
+  "activeIngredient" : "Amoxicillin",
+  "quantity" : 800,
+  "expiryDate" : [ 2025, 1, 28 ],
+  "batchNumber" : "AMO-2024-023"
+}, {
+  "name" : "Omeprazol Aristo 20mg Kapseln",
+  "activeIngredient" : "Omeprazol",
+  "quantity" : 1200,
+  "expiryDate" : [ 2025, 11, 5 ],
+  "batchNumber" : "OMP-2024-041"
+}, {
+  "name" : "Metformin Aristo 850mg Filmtabletten",
+  "activeIngredient" : "Metformin HCl",
+  "quantity" : 950,
+  "expiryDate" : [ 2025, 8, 18 ],
+  "batchNumber" : "MET-2024-033"
+}, {
+  "name" : "Bisoprolol Aristo 5mg Filmtabletten",
+  "activeIngredient" : "Bisoprolol Fumarat",
+  "quantity" : 600,
+  "expiryDate" : [ 2025, 4, 30 ],
+  "batchNumber" : "BIS-2024-019"
+}, {
+  "name" : "Simvastatin Aristo 20mg Filmtabletten",
+  "activeIngredient" : "Simvastatin",
+  "quantity" : 750,
+  "expiryDate" : [ 2025, 6, 22 ],
+  "batchNumber" : "SIM-2024-027"
 } ]
