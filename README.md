@@ -11,8 +11,6 @@ See how Spring beans can be injected into controllers
 
 Render bean fields dynamically in an HTML template using Thymeleaf
 
-Provide a minimal starter project to build on top of for more advanced use cases
-
 🚀 What It Demonstrates
 
 ✅ Spring Boot auto-configuration
