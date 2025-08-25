@@ -1,13 +1,13 @@
-package com.example.beanlifecycle;
+package com.garagna.pharma.inventory;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BeanlifecycleApplication {
+public class PharmaceuticalInventoryApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BeanlifecycleApplication.class, args);
+		SpringApplication.run(PharmaceuticalInventoryApplication.class, args);
 	}
 
 }
