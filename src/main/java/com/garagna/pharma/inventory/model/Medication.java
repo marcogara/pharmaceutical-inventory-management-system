@@ -1,4 +1,3 @@
-// File: src/main/java/com/marcogara/pharma/inventory/PharmaceuticalInventoryApplication.java
 package com.garagna.pharma.inventory.model;
 
 import java.time.LocalDate;
